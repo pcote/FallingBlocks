@@ -6,8 +6,7 @@ package com.philipcote.gamelib;
  Andrew Davidson.  However, I split the code up so that issues concerning frame-rate
  and issues concerning game logic and rendering are dealt with seperately. 
  
- Since this is a threaded class, it needs to be assigned to either a thread or 
- thread pool in order to be run.  
+ This is a threaded class. Use a thread or thread pool to run this. 
  */
 public class AnimationCycle implements Runnable{
 	 private static final int NO_DELAYS_PER_YIELD = 16;

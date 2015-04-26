@@ -2,7 +2,7 @@ package com.philipcote.gamelib;
 import java.awt.*;
 
 /**
- * @author       x
+ * @author      Phil Cote 
  */
 
 // Parent class to the players and objects in a game.

@@ -1,9 +1,10 @@
 package com.philipcote.gamelib;
 
 
-// WormPanel.java
-// Andrew Davison, April 2005, ad@fivedots.coe.psu.ac.th
-
+/*
+Somewhat modified version of WormPanel by Andrew Davidson.
+From the book, "Killer Game Programming in Java"
+*/
 /* The game's drawing surface. It shows:
      - the moving worm
      - the obstacles (blue boxes)
@@ -13,7 +14,6 @@ package com.philipcote.gamelib;
 import javax.swing.*;
 import java.awt.*;
 
-//import com.sun.j3d.utils.timer.J3DTimer;
 
 /*
  * GamePanel lifts some of the detail burdens off of the programmer's shoulders.
@@ -22,7 +22,7 @@ import java.awt.*;
  * */
 public abstract class GamePanel extends JPanel
 {
-	private static final long serialVersionUID = 2069961672568713289L;
+    private static final long serialVersionUID = 2069961672568713289L;
     protected int width = 500;   // size of panel
     protected int height = 400; 
     protected long period = 20L; // period between drawing in _nanosecs_
@@ -80,4 +80,4 @@ protected Graphics initializeGraphicsContext() {
 	return g;
 }
 
-}  // end of WormPanel class
+} 
